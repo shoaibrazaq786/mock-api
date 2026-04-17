@@ -1,40 +1,42 @@
 {
-  "client": {
-    "id": 1,
-    "name": "Ali Graphics",
-    "phone": "03001234567",
-    "email": "ali@graphics.com",
-    "company": "Ali Graphics Studio",
-    "address": "Lahore, Pakistan"
-  },
+  "data": {
+    "client": {
+      "id": 1,
+      "name": "Ali Graphics",
+      "phone": "03001234567",
+      "email": "ali@graphics.com",
+      "company": "Ali Graphics Studio",
+      "address": "Lahore, Pakistan"
+    },
 
-  "orders": [
-    {
-      "order_no": "ORD-1001",
-      "title": "Wedding Cards Printing",
-      "quantity": 500,
-      "price": 25000,
-      "status": "pending",
-      "created_at": "2026-04-10",
-      "delivery_date": "2026-04-20"
-    },
-    {
-      "order_no": "ORD-1002",
-      "title": "Flyers A5 Print",
-      "quantity": 2000,
-      "price": 18000,
-      "status": "in_progress",
-      "created_at": "2026-04-12",
-      "delivery_date": "2026-04-18"
-    },
-    {
-      "order_no": "ORD-1003",
-      "title": "Business Cards",
-      "quantity": 1000,
-      "price": 12000,
-      "status": "completed",
-      "created_at": "2026-04-01",
-      "delivery_date": "2026-04-05"
-    }
-  ]
+    "orders": [
+      {
+        "order_no": "ORD-1001",
+        "title": "Wedding Cards Printing",
+        "quantity": 500,
+        "price": 25000,
+        "status": "pending",
+        "created_at": "2026-04-10",
+        "delivery_date": "2026-04-20"
+      },
+      {
+        "order_no": "ORD-1002",
+        "title": "Flyers A5 Print",
+        "quantity": 2000,
+        "price": 18000,
+        "status": "in_progress",
+        "created_at": "2026-04-12",
+        "delivery_date": "2026-04-18"
+      },
+      {
+        "order_no": "ORD-1003",
+        "title": "Business Cards",
+        "quantity": 1000,
+        "price": 12000,
+        "status": "completed",
+        "created_at": "2026-04-01",
+        "delivery_date": "2026-04-05"
+      }
+    ]
+  }
 }
